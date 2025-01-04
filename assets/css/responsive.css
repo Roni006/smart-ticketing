@@ -1,0 +1,22 @@
+/* @media (max-width: px) */
+@media (max-width: 750px) {
+    .menu {
+        display: none;
+    }
+
+    .bars {
+        display: block
+    }
+
+    .header-row {
+        /* justify-content: space-around; */
+        align-items: center;
+    }
+
+}
+
+@media (max-width: 475px) {
+    .header-btns {
+        display: none;
+    }
+}
