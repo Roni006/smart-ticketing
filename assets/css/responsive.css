@@ -4,6 +4,10 @@
         font-size: 55px;
         line-height: 70px;
     }
+    .offer-row{
+        flex-wrap: wrap;
+        row-gap: 30px;
+    }
 }
 
 @media (max-width: 1050px) {
@@ -57,19 +61,14 @@
     .bars {
         display: block
     }
-
+    
     .header-row {
         /* justify-content: space-around; */
         align-items: center;
     }
-
+    
 }
 
-@media (max-width: 475px) {
-    .header-btns {
-        display: none;
-    }
-}
 
 @media (max-width: 630px) {
     .hero-top {
@@ -78,8 +77,55 @@
     .hero-title h1{
         font-size: 30px;
     }
+    .offer-card{
+        width: 500px;
+    }
+    .dots {
+        height: 50px;
+        width: 50px;
+        background-color: var(--white-color);
+        border-radius: 50%;
+        position: absolute;
+        top: -25px;
+        left: 270px;
+    }
+    .dots2 {
+        height: 50px;
+        width: 50px;
+        background-color: var(--white-color);
+        border-radius: 50%;
+        position: absolute;
+        bottom: -25px;
+        left: 270px;
+    }
+
+}
+ 
+
+@media (max-width: 530px) {
+    
+    .offer-card {
+        display: flex;
+        background-color: var(--offer-card-bg);
+        border-radius: 25px;
+        width: 450px;
+        padding: 35px 35px;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .card-title h2,
+    .card-title h3{
+        font-size: 30px;
+    }
+    .card-text p,
+    .card-text2 p{
+        font-size: 18px;
+    } 
 }
 @media (max-width: 475px) {
+    .header-btns {
+        display: none;
+    }
     .hero-top {
         padding: 50px 30px 35px 30px;
     }
@@ -93,4 +139,49 @@
     .hero-text p{
         text-align: justify;
     } 
+    .offer-card {
+        display: flex;
+        background-color: var(--offer-card-bg);
+        border-radius: 25px;
+        width: 350px;
+        padding: 20px 20px;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .dots {
+        height: 50px;
+        width: 50px;
+        background-color: var(--white-color);
+        border-radius: 50%;
+        position: absolute;
+        top: -30px;
+        left: 184px;
+    }
+    .dots2 {
+        height: 50px;
+        width: 50px;
+        background-color: var(--white-color);
+        border-radius: 50%;
+        position: absolute;
+        bottom: -35px;
+        left: 184px;
+    }
+    .card-text p,
+    .card-text2 p{
+        font-size: 16px;
+    } 
+    .card-title h2,
+    .card-title h3{
+        font-size: 26px;
+    }
+    .offer-title .offer{
+        font-size: 30px;
+    }
+    .offer-btn a{
+        padding: 12px 16px;
+        font-size: 18px;
+    }
 }
+
+
+
