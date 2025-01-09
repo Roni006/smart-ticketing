@@ -1,10 +1,12 @@
 /* @media (max-width: px) */
+
 @media (max-width: 1130px) {
     .hero-title h1 {
         font-size: 55px;
         line-height: 70px;
     }
-    .offer-row{
+
+    .offer-row {
         flex-wrap: wrap;
         row-gap: 30px;
     }
@@ -31,7 +33,8 @@
         width: 100%;
         margin: 0 auto;
     }
-    .hero-bottom{
+
+    .hero-bottom {
         flex-wrap: wrap;
         row-gap: 20px;
     }
@@ -61,12 +64,14 @@
     .bars {
         display: block
     }
-    
-    .header-row {
-        /* justify-content: space-around; */
+
+    .header-row { 
         align-items: center;
     }
-    
+
+    .paribahan-top .pari-text p {
+        width: 520px;
+    }
 }
 
 
@@ -74,114 +79,138 @@
     .hero-top {
         padding: 70px 45px 135px 45px;
     }
-    .hero-title h1{
+
+    .hero-title h1 {
         font-size: 30px;
     }
-    .offer-card{
+
+    .offer-card,
+    .pink {
         width: 500px;
     }
-    .dots {
-        height: 50px;
-        width: 50px;
-        background-color: var(--white-color);
-        border-radius: 50%;
-        position: absolute;
+
+    .dots { 
         top: -25px;
         left: 270px;
     }
-    .dots2 {
-        height: 50px;
-        width: 50px;
-        background-color: var(--white-color);
-        border-radius: 50%;
-        position: absolute;
+
+    .dots2 { 
         bottom: -25px;
         left: 270px;
     }
+    .blocks2 .dots { 
+        top: -22px;
+        left: 246px;
+    }
+    .blocks2 .dots2 { 
+        bottom: -22px;
+        left: 246px;
+    }
+    .pink {  
+        width: 575px;
+        padding: 50px 35px; 
+    }
+    .pink {
+        width: 500px;
+    }
 
 }
- 
+
 
 @media (max-width: 530px) {
-    
-    .offer-card {
-        display: flex;
-        background-color: var(--offer-card-bg);
-        border-radius: 25px;
+
+    .offer-card { 
         width: 450px;
         padding: 35px 35px;
-        align-items: center;
-        justify-content: space-between;
+        align-items: center; 
     }
+
     .card-title h2,
-    .card-title h3{
+    .card-title h3 {
         font-size: 30px;
     }
+
     .card-text p,
-    .card-text2 p{
+    .card-text2 p {
         font-size: 18px;
-    } 
+    }
+    .paribahan-top .pari-text p {
+        width: 100%; 
+    }
+    .dots {  
+        top: -28px;
+        left: 240px;
+    }
+    .dots{ 
+        top: -28px;
+        left: 240px;
+    }
+    .blocks2 .dots { 
+        top: -35px;
+        left: 174px;
+    }
+    .blocks2 .dots2 { 
+        bottom: -35px;
+        left: 174px;
+    }
 }
+
 @media (max-width: 475px) {
     .header-btns {
         display: none;
     }
+
     .hero-top {
         padding: 50px 30px 35px 30px;
     }
-    .header-row{
+
+    .header-row {
         background-size: cover;
     }
-    .hero-title h1{
+
+    .hero-title h1 {
         font-size: 25px;
         line-height: 35px;
     }
-    .hero-text p{
+
+    .hero-text p {
         text-align: justify;
-    } 
-    .offer-card {
-        display: flex;
-        background-color: var(--offer-card-bg);
-        border-radius: 25px;
-        width: 350px;
-        padding: 20px 20px;
-        align-items: center;
-        justify-content: space-between;
     }
-    .dots {
-        height: 50px;
-        width: 50px;
-        background-color: var(--white-color);
-        border-radius: 50%;
-        position: absolute;
-        top: -30px;
+
+    .offer-card { 
+        width: 350px;
+        padding: 20px 20px; 
+    }
+
+    .dots { 
+        top: -35px;
         left: 184px;
     }
+
     .dots2 {
-        height: 50px;
-        width: 50px;
-        background-color: var(--white-color);
-        border-radius: 50%;
-        position: absolute;
         bottom: -35px;
         left: 184px;
     }
+
     .card-text p,
-    .card-text2 p{
+    .card-text2 p {
         font-size: 16px;
-    } 
+    }
+
     .card-title h2,
-    .card-title h3{
+    .card-title h3 {
         font-size: 26px;
     }
-    .offer-title .offer{
+
+    .offer-title .offer {
         font-size: 30px;
     }
-    .offer-btn a{
+
+    .offer-btn a {
         padding: 12px 16px;
         font-size: 18px;
     }
+    .paribahan-top .pari-title h2{
+        font-size: 30px;
+    }
 }
-
-
-
