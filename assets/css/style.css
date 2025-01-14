@@ -22,7 +22,9 @@ VERSION       : 1.0.0
      --offer-card-bg: #FFBF0F;
      --offer-card-bg2: #F78C9C;
      --card-text: #030712;
-     --paribahan-bg: #F7F8F8
+     --paribahan-bg: #F7F8F8;
+     --points-bg: #03071210;
+     --dashed-border: #0307123d;
  }
 
  body {
@@ -351,6 +353,8 @@ VERSION       : 1.0.0
      background-color: var(--paribahan-bg);
      border-radius: 50px 50px 0 0;
      border-top: 2px solid var(--btn-text-color);
+     padding-bottom: 60px;
+     position: relative;
 
  }
 
@@ -372,7 +376,125 @@ VERSION       : 1.0.0
     font-size: 18px;
     color: var(--menu-color);
  }
+ /*PARIBAHAN BOTTOM SECTION  */
+ .pari-row{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    background-color: var(--white-color);
+    padding: 32px 32px;
+    border-radius: 25px;
+    /* position: relative; */
+ }
+ .car-seat{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    margin-bottom: 25px;
+ }
+.car{
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+}
+.car-title h3{
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 8px;
+    font-family: var(--heading-font);
+}
+.car-title p{
+    font-size: 18px;
+    color: var(--menu-color);
+}
+.seat{
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+    background-color: var(--header-btn-bg);
+    padding: 15px 18px;
+    border-radius: 15px;
+    font-weight: 500;
+    color: var(--btn-text-color);
+    cursor: pointer;
+}
+.seat-text p{
+    font-size: 18px;
+}
+
+.route-destination{
+    margin-top: 50px;
+}
+.route1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px dashed var(--dashed-border);
+    color: var(--menu-color); 
+}
+.route1 p{
+    font-size: 18px;
+}
+.route1 .time{ 
+    font-weight: 600;
+}
+.extra{
+    margin:30px 0 30px 0;
+}
+.points{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 20px;
+}
+.point1{
+    background-color: var(--points-bg);
+    display: inline-block;
+    padding: 15px 18px;
+    border-radius: 12px;
+}
+
+ .middle{
+    color: var(--btn-text-color); 
+ }
+
+.pari-right .content{
+    text-align: center;
+    font-size: 18px;
+}
+.taka-amount h3{
+    font-size: 32px;
+    padding: 12px 0;
+}
+.per-seat h4{
+    color: var(--menu-color);
+    opacity: 0.6;
+}
+.paribahan-bottom .dot {
+    background-color: var(--paribahan-bg);
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    position: absolute;
+    top: 170px;
+    left: 1180px;
+}
+.paribahan-bottom .dot2 {
+    background-color: var(--paribahan-bg);
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 28px;
+    left: 1180px;
+}
+ /*PARIBAHAN BOTTOM SECTION  */
+
+
  /*PARIBAHAN SECTION END */
+
 
  /* SECTION START */
  /* SECTION END */
