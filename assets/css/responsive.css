@@ -38,6 +38,16 @@
         flex-wrap: wrap;
         row-gap: 20px;
     }
+    .pari-row{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .pari-left{
+        margin-bottom: 50px;
+    }
+    .middle{
+        display: none;
+    }
 }
 
 @media (max-width: 780px) {
@@ -71,6 +81,19 @@
 
     .paribahan-top .pari-text p {
         width: 520px;
+        text-align: justify;
+    }
+    .points{
+        flex-wrap: wrap;
+        justify-content: center;
+        row-gap: 20px;
+    } 
+    .car-title h3{
+        font-size: 25px;
+    }
+    .car-title p,
+    .seat-text p{
+        font-size: 16px;
     }
 }
 
@@ -112,6 +135,12 @@
     }
     .pink {
         width: 500px;
+    }
+    .car-seat{
+        flex-wrap: wrap;
+    }
+    .seat{
+        margin-top: 30px;
     }
 
 }
@@ -207,10 +236,16 @@
     }
 
     .offer-btn a {
-        padding: 12px 16px;
+        padding: 5px 8px;
         font-size: 18px;
     }
     .paribahan-top .pari-title h2{
         font-size: 30px;
+    }
+    .car-title h3 {
+        margin-top: 8px;
+    }
+    .car{
+        flex-wrap: wrap;
     }
 }

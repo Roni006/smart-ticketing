@@ -386,7 +386,7 @@ VERSION       : 1.0.0
     background-color: var(--white-color);
     padding: 32px 32px;
     border-radius: 25px;
-    /* position: relative; */
+    position: relative;
  }
  .car-seat{
     display: flex;
@@ -473,22 +473,25 @@ VERSION       : 1.0.0
     opacity: 0.6;
 }
 .paribahan-bottom .dot {
-    background-color: var(--paribahan-bg);
+    /* background-color: var(--paribahan-bg); */
+    background-color: var(--btn-text-color);
     height: 70px;
     width: 70px;
     border-radius: 50%;
     position: absolute;
-    top: 170px;
-    left: 1180px;
+    top: 164px;
+    left: 1167px;
+    z-index: 99;
 }
 .paribahan-bottom .dot2 {
-    background-color: var(--paribahan-bg);
+    /* background-color: var(--paribahan-bg); */
+    background-color: var(--btn-text-color);
     height: 70px;
     width: 70px;
     border-radius: 50%;
     position: absolute;
-    bottom: 28px;
-    left: 1180px;
+    bottom: -35px;
+    left: 815px;
 }
  /*PARIBAHAN BOTTOM SECTION  */
 
