@@ -1,4 +1,21 @@
 /* @media (max-width: px) */
+@media (max-width: 1200px) {
+    .ftext p {
+        width: 285px;
+        line-height: 30px;
+    }
+
+    .footer-row {
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .fmenu {
+        padding: 0;
+        margin-top: 20px;
+        flex-wrap: wrap;
+    }
+}
 
 @media (max-width: 1130px) {
     .hero-title h1 {
@@ -38,18 +55,26 @@
         flex-wrap: wrap;
         row-gap: 20px;
     }
-    .pari-row{
+
+    .pari-row {
         flex-wrap: wrap;
         justify-content: center;
     }
-    .pari-left{
+
+    .pari-left {
         margin-bottom: 50px;
     }
-    .middle{
+
+    .middle {
         display: none;
     }
 }
 
+@media (max-width: 850px) {
+    .f-left{
+        margin-bottom: 30px;
+    }
+}
 @media (max-width: 780px) {
     .hero-title h1 {
         font-size: 35px;
@@ -75,7 +100,7 @@
         display: block
     }
 
-    .header-row { 
+    .header-row {
         align-items: center;
     }
 
@@ -83,16 +108,19 @@
         width: 520px;
         text-align: justify;
     }
-    .points{
+
+    .points {
         flex-wrap: wrap;
         justify-content: center;
         row-gap: 20px;
-    } 
-    .car-title h3{
+    }
+
+    .car-title h3 {
         font-size: 25px;
     }
+
     .car-title p,
-    .seat-text p{
+    .seat-text p {
         font-size: 16px;
     }
 }
@@ -112,46 +140,55 @@
         width: 500px;
     }
 
-    .dots { 
+    .dots {
         top: -25px;
         left: 270px;
     }
 
-    .dots2 { 
+    .dots2 {
         bottom: -25px;
         left: 270px;
     }
-    .blocks2 .dots { 
+
+    .blocks2 .dots {
         top: -22px;
         left: 246px;
     }
-    .blocks2 .dots2 { 
+
+    .blocks2 .dots2 {
         bottom: -22px;
         left: 246px;
     }
-    .pink {  
+
+    .pink {
         width: 575px;
-        padding: 50px 35px; 
+        padding: 50px 35px;
     }
+
     .pink {
         width: 500px;
     }
-    .car-seat{
+
+    .car-seat {
         flex-wrap: wrap;
     }
-    .seat{
+
+    .seat {
         margin-top: 30px;
     }
+    .footer-section {
+        padding: 60px 70px;
+    }  
 
 }
 
 
 @media (max-width: 530px) {
 
-    .offer-card { 
+    .offer-card {
         width: 450px;
         padding: 35px 35px;
-        align-items: center; 
+        align-items: center;
     }
 
     .card-title h2,
@@ -163,24 +200,44 @@
     .card-text2 p {
         font-size: 18px;
     }
+
     .paribahan-top .pari-text p {
-        width: 100%; 
+        width: 100%;
     }
-    .dots {  
+
+    .dots {
         top: -28px;
         left: 240px;
     }
-    .dots{ 
+
+    .dots {
         top: -28px;
         left: 240px;
     }
-    .blocks2 .dots { 
+
+    .blocks2 .dots {
         top: -35px;
         left: 174px;
     }
-    .blocks2 .dots2 { 
+
+    .blocks2 .dots2 {
         bottom: -35px;
         left: 174px;
+    }
+    .f-text p{
+        width: 100%;
+        text-align: justify;
+    }
+    .fmenu {
+        padding: 0;
+        margin-top: 0;  
+    }
+    .fmenu li {
+        margin-bottom: 10px;
+    }
+    .ftext p{
+        width: 100%;
+        text-align: justify;
     }
 }
 
@@ -206,12 +263,12 @@
         text-align: justify;
     }
 
-    .offer-card { 
+    .offer-card {
         width: 350px;
-        padding: 20px 20px; 
+        padding: 20px 20px;
     }
 
-    .dots { 
+    .dots {
         top: -35px;
         left: 184px;
     }
@@ -239,13 +296,19 @@
         padding: 5px 8px;
         font-size: 18px;
     }
-    .paribahan-top .pari-title h2{
+
+    .paribahan-top .pari-title h2 {
         font-size: 30px;
     }
+
     .car-title h3 {
         margin-top: 8px;
     }
-    .car{
+
+    .car {
         flex-wrap: wrap;
+    }
+    .footer-section {
+        padding: 40px 35px;
     }
 }
